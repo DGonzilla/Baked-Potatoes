@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "Fonts">
+      <FileRef
+         location = "group:Montserrat-Black.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-BlackItalic.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-Bold.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-BoldItalic.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-ExtraBold.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-ExtraBoldItalic.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-ExtraLight.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-ExtraLightItalic.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-Italic.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-Light.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-LightItalic.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-Medium.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-MediumItalic.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-Regular.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-SemiBold.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-SemiBoldItalic.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-Thin.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Montserrat-ThinItalic.ttf">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
