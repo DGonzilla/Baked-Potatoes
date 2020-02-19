@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7071F1823E3ADBF00598589 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7071F1723E3ADBF00598589 /* Home.swift */; };
 		C7071F1A23E3AE5F00598589 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7071F1923E3AE5F00598589 /* Movies.swift */; };
 		C7071F1C23E3AE6B00598589 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7071F1B23E3AE6B00598589 /* Favorites.swift */; };
 		C7071F2023E3AE8100598589 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7071F1F23E3AE8100598589 /* Feedback.swift */; };
@@ -25,6 +24,7 @@
 		C734E06F23E55EC700B1ADBC /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C734E06523E55EC700B1ADBC /* Montserrat-ExtraLight.ttf */; };
 		C734E07023E55EC700B1ADBC /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C734E06623E55EC700B1ADBC /* Montserrat-Thin.ttf */; };
 		C734E07123E55EC700B1ADBC /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C734E06723E55EC700B1ADBC /* Montserrat-SemiBoldItalic.ttf */; };
+		C780B1AC23FCF9BD0074BF16 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C780B1AB23FCF9BD0074BF16 /* Home.swift */; };
 		C7CDFBDF23B489BA00143862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CDFBDE23B489BA00143862 /* AppDelegate.swift */; };
 		C7CDFBE123B489BA00143862 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CDFBE023B489BA00143862 /* SceneDelegate.swift */; };
 		C7CDFBE323B489BA00143862 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CDFBE223B489BA00143862 /* ContentView.swift */; };
@@ -34,7 +34,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C7071F1723E3ADBF00598589 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		C7071F1923E3AE5F00598589 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		C7071F1B23E3AE6B00598589 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		C7071F1F23E3AE8100598589 /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
@@ -52,6 +51,7 @@
 		C734E06523E55EC700B1ADBC /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
 		C734E06623E55EC700B1ADBC /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
 		C734E06723E55EC700B1ADBC /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		C780B1AB23FCF9BD0074BF16 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		C7CDFBDB23B489BA00143862 /* Baked Potatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baked Potatoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CDFBDE23B489BA00143862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7CDFBE023B489BA00143862 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 				C7CDFBDE23B489BA00143862 /* AppDelegate.swift */,
 				C7CDFBE023B489BA00143862 /* SceneDelegate.swift */,
 				C7CDFBE223B489BA00143862 /* ContentView.swift */,
-				C7071F1723E3ADBF00598589 /* Home.swift */,
+				C780B1AB23FCF9BD0074BF16 /* Home.swift */,
 				C7071F1923E3AE5F00598589 /* Movies.swift */,
 				C7071F1B23E3AE6B00598589 /* Favorites.swift */,
 				C734E05623E4B62600B1ADBC /* MyAccount.swift */,
@@ -229,11 +229,11 @@
 				C7071F1A23E3AE5F00598589 /* Movies.swift in Sources */,
 				C734E05723E4B62600B1ADBC /* MyAccount.swift in Sources */,
 				C7CDFBDF23B489BA00143862 /* AppDelegate.swift in Sources */,
+				C780B1AC23FCF9BD0074BF16 /* Home.swift in Sources */,
 				C7071F2923E40AD700598589 /* Watched.swift in Sources */,
 				C7CDFBE123B489BA00143862 /* SceneDelegate.swift in Sources */,
 				C7071F1C23E3AE6B00598589 /* Favorites.swift in Sources */,
 				C7071F2E23E40DCA00598589 /* AccountFavorites.swift in Sources */,
-				C7071F1823E3ADBF00598589 /* Home.swift in Sources */,
 				C7071F2023E3AE8100598589 /* Feedback.swift in Sources */,
 				C7071F2723E40ACE00598589 /* Profile.swift in Sources */,
 				C7CDFBE323B489BA00143862 /* ContentView.swift in Sources */,
