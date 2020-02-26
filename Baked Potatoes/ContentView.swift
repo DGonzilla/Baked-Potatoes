@@ -21,7 +21,7 @@ struct ContentView: View {
                 Text("Home")
             }.tag(0)
             
-            
+             
             Movies().tabItem{
                 
                 Image(systemName: "film")
