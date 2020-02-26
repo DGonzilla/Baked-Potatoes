@@ -13,7 +13,7 @@ struct Movies: View {
         Text("Movies")
             .font(.largeTitle)
     }
-}
+} 
 
 struct Movies_Previews: PreviewProvider {
     static var previews: some View {

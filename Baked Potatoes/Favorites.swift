@@ -14,7 +14,7 @@ struct Favorites: View {
             .font(.largeTitle)
     }
 }
-
+  
 struct Favorites_Previews: PreviewProvider {
     static var previews: some View {
         Favorites()

@@ -23,7 +23,7 @@ struct Home : View {
         
         ZStack{
             
-            
+              
             
             // Stack to Contain movie poster etc.
             VStack{
