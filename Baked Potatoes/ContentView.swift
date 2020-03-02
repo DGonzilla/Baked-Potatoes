@@ -53,6 +53,7 @@ struct ContentView: View {
             
         }
         .accentColor(.white)
+        .edgesIgnoringSafeArea(.top)
         
     }
 }

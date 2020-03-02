@@ -14,9 +14,13 @@ struct Feedback: View {
     @State private var email: String = ""
     @State private var feedback: String = ""
     
+    @State private var nameQuestionString = "What's Your Name?"
+    private var entryLimit: Int = 33
+    
     var body: some View {
         
         ZStack {
+            
             
             VStack{
                 
@@ -26,25 +30,28 @@ struct Feedback: View {
                     .opacity(0.57)
             }
             
+            
             VStack{
                 
-                Group{
-                    Text("Feedback")
-                        .font(.custom("Montserrat-Light", size: 60))
-                        .padding(.top, 70)
-                    
-                    Text("Tell us what we missed")
-                        .font(.custom("Montserrat-ExtraLightItalic", size: 20))
-                        .foregroundColor(.white)
-                        .padding(.top, 4)
-                }
                 
-                Group{
+                Text("Feedback")
+                    .font(.custom("Montserrat-Light", size: 60))
+                    .padding(.top, 70)
+                
+                Text("Tell us what we missed")
+                    .font(.custom("Montserrat-ExtraLightItalic", size: 20))
+                    .foregroundColor(.white)
+                    .padding(.top, 4)
+                
+                
+                VStack{
                     
-                    Text("What's Your Name?")
+                    Text(nameQuestionString)
                         .padding(.top, 70)
                         .font(.custom("Montserrat-Light", size: 20))
                         .foregroundColor(.white)
+                    
+                    //if(name.count > entryLimit){nameQuestionString = "Too many Characters"}
                     
                     TextField("I rather be anonymous", text: $name)
                         .multilineTextAlignment(.center)
@@ -53,7 +60,8 @@ struct Feedback: View {
                         .scaledToFit()
                         .opacity(0.6)
                     
-                    Image("MenuUnderline")
+                    
+                    Image("Input Line")
                         .resizable()
                         .frame(width: 300, height: 2)
                         .cornerRadius(4.0)
@@ -73,7 +81,7 @@ struct Feedback: View {
                         .scaledToFit()
                         .opacity(0.6)
                     
-                    Image("MenuUnderline")
+                    Image("Input Line")
                         .resizable()
                         .frame(width: 300, height: 2)
                         .cornerRadius(4.0)
@@ -95,14 +103,18 @@ struct Feedback: View {
                         .opacity(0.6)
                     
                     
-                    Image("MenuUnderline")
+                    Image("Input Line")
                         .resizable()
-                        .frame(width: 300, height: 2)
                         .cornerRadius(4.0)
+                        .frame(width: 300, height: 2)
+                    
                     
                     
                     
                     Spacer()
+                    
+                    
+                    
                 }
             }
         }
