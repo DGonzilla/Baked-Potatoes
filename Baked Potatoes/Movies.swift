@@ -10,8 +10,96 @@ import SwiftUI
 
 struct Movies: View {
     var body: some View {
-        Text("Movies")
-            .font(.largeTitle)
+        
+        ScrollView{
+            
+            VStack {
+                
+                
+                // Initial Main Image View Movie And Details
+                ZStack (alignment: .leading){
+                                        
+                    // Main Image Poster
+                    Image("QueenAndSlimPoster")
+                        .resizable()
+                        .aspectRatio(0.8, contentMode: .fill)
+                        .opacity(0.6)
+                    
+                    //TODO: Fade the bottom 25% of the main poster image above
+                    
+                    
+                    // Text On Top of Main Image
+                    VStack (alignment: .leading){
+                        
+                        Spacer()
+                        
+                        // Movie Title Name
+                        Text("Queen & Slim")
+                            .font(.largeTitle)
+                            .padding(.leading)
+                        
+                        // Stars & Review numbers
+                        HStack {
+                            Image("Star Icon")
+                                .resizable()
+                                .frame(width: 20, height: 20)
+                            
+                            Text("189 Reviews")
+                                .font(.caption)
+                        }.padding(.top, -15).padding(.leading)
+                        
+                        // Category for film
+                        HStack {
+                            Text("THRILLER")
+                                .padding(.all, 5)
+                                .border(Color.white)
+                                .cornerRadius(8)
+                                //.opacity(0.5)
+                        }.padding(.leading)
+                            
+                        //FIXME: Resolve issue with border in text above
+                        
+                    }
+                    
+                    
+                }
+                
+                
+                // Stack shows Text below main, onscreen movie poster
+                HStack {
+                    Text("Movies In Theaters")
+                        .font(.title)
+                        .padding()
+                    
+                    
+                    Spacer()
+                    
+                    Text("SEE ALL")
+                        .font(.caption)
+                        .padding()
+                    
+                }.padding(.top, 40)
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            }
+            
+            
+            
+            
+            
+            
+            
+        }
+            .edgesIgnoringSafeArea(.top) //ScrollView ignores edges
     }
 } 
 
