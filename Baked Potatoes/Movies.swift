@@ -22,8 +22,10 @@ struct Movies: View {
                     // Main Image Poster
                     Image("QueenAndSlimPoster")
                         .resizable()
-                        .aspectRatio(0.8, contentMode: .fill)
+                        .aspectRatio(0.80, contentMode: .fit)
                         .opacity(0.6)
+                    
+                    //TODO: Fix Height of Poster Image to fit in place without distortion
                     
                     //TODO: Fade the bottom 25% of the main poster image above
                     
@@ -53,7 +55,7 @@ struct Movies: View {
                             Text("THRILLER")
                                 .padding(.all, 5)
                                 .border(Color.white)
-                                .cornerRadius(8)
+                                .cornerRadius(2)
                                 //.opacity(0.5)
                         }.padding(.leading)
                             
