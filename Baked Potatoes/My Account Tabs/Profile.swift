@@ -15,7 +15,7 @@ struct Profile: View {
         
                     
             
-        ScrollView {
+        //ScrollView {
             VStack (alignment: .leading, spacing: 50) {
                     HStack {
                         Text("Movie Poster")
@@ -53,7 +53,7 @@ struct Profile: View {
                         
                     }
             }
-        }
+        //}
         
         
         

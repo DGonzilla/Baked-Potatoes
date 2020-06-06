@@ -13,7 +13,7 @@ struct Watched: View {
         
         
         
-        ScrollView {
+        //ScrollView {
             
             VStack (alignment: .leading){
                 
@@ -153,7 +153,7 @@ struct Watched: View {
                 
             }
             
-        } // Padding to top of Scroll View
+        //} // Padding to top of Scroll View
             .padding(.top)
         
         

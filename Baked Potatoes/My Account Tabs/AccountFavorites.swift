@@ -10,8 +10,50 @@ import SwiftUI
 
 struct AccountFavorites: View {
     var body: some View {
-        Text("Account Favorites")
-            .font(.title)
+        
+        
+        
+        //ScrollView {
+            VStack (alignment: .leading, spacing: 50) {
+                    HStack {
+                        Text("Movie Poster")
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(.white)
+                            .font(.largeTitle)
+                            .frame(width: 150, height: 225)
+                            .background(Color.red)
+                        
+                        Text("Some Default Text").padding()
+                        
+                    }
+                    
+                    HStack {
+                        Text("Movie Poster")
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(.white)
+                            .font(.largeTitle)
+                            .frame(width: 150, height: 225)
+                            .background(Color.red)
+                        
+                        Text("Some Default Text").padding()
+                        
+                    }
+                    
+                    HStack {
+                        Text("Movie Poster")
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(.white)
+                            .font(.largeTitle)
+                            .frame(width: 150, height: 225)
+                            .background(Color.red)
+                        
+                        Text("Some Default Text").padding()
+                        
+                    }
+            }
+        //}
+        
+        
     }
 }
 

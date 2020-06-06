@@ -84,20 +84,7 @@ struct Movies: View {
                 
                 
                 
-                
-                
-                
-                
-                
-                
-                
-                
             }
-            
-            
-            
-            
-            
             
             
         }

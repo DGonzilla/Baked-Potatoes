@@ -399,7 +399,7 @@
 				DEVELOPMENT_TEAM = 47F4EVLGG7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Baked Potatoes/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -421,7 +421,7 @@
 				DEVELOPMENT_TEAM = 47F4EVLGG7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Baked Potatoes/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
